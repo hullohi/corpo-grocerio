@@ -9,8 +9,8 @@ body {
   background-color: rgb(181, 237, 255);
 }
 
-h1 {
-
+/* h1 {
+  position: absolute;
   background-color: rgb(12, 8, 48);
   color: rgb(255, 255, 255);
   text-align: center;
@@ -18,27 +18,56 @@ h1 {
   padding: 20px;
   position: fixed;
   width: 100%;
-  text-align: center;
+  text-align: left;
   box-shadow: 2px 2px 4px #180062;
-  
-
+  z-index: 2;
+} */
+nav{
+   /* position: absolute; */
+  background-color: #004070;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  /* height: 5%; */
+  text-align: left;
+  box-shadow: 2px 2px 8px #004070;
+  z-index: 2;
 }
 
+#logo{
+
+  
+}
 p {
   font-family: verdana;
   font-size: 20px;
 }
-header {
+/* header {
   background-color: rgb(129, 157, 209);
   padding: 10px;
-}
+} */
 .hey {
   font-size: 20px;
   color: rgb(255, 0, 140);
   background-color: black;
   text-align: center;
 }
-
+.main{
+  position: relative;
+  /* position: relative; */
+}
+.main >.over{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+}
 /* .webhead{
  background-color: rgb(12, 8, 48);
   width: 1000vw;
@@ -66,7 +95,7 @@ header {
 @media only screen and (min-width: 600px) {
   
   body{
-  background-color:  hwb(165 40% 6%);
+  background-color:  #93D7FF;
   }
 
 
