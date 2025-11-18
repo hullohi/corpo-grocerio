@@ -5,36 +5,67 @@
 }
 
 
-body {
+body {  
   background-color: rgb(181, 237, 255);
 }
-
-/* h1 {
-  position: absolute;
-  background-color: rgb(12, 8, 48);
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 20px;
-  position: fixed;
-  width: 100%;
-  text-align: left;
-  box-shadow: 2px 2px 4px #180062;
-  z-index: 2;
-} */
+a:link{
+  color: #93D7FF;
+  font-size: 1vw;
+  z-index: 3;
+}
+a:visited{
+  color: #f6fdff;
+  font-size: 15px;
+}
 nav{
-   /* position: absolute; */
   background-color: #004070;
   color: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 15px;
+  padding: 1vw;
   position: fixed;
   width: 100%;
-  /* height: 5%; */
+
   text-align: left;
   box-shadow: 2px 2px 8px #004070;
   z-index: 2;
 }
+
+.dropbutton {
+  background-color: #0091ff;
+  color: rgb(250, 21, 21);
+  padding: .8vw;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownstuff {
+  display: none;
+  position: absolute;
+  background-image: linear-gradient(to right, #93D7FF, rgb(12, 0, 34));
+  min-width: 10000%;
+  max-width: 100%;
+  left: -700%;
+}
+.dropdownstuff a {
+  color: rgb(12, 0, 80);
+  padding: .5%;
+}
+.dropdownstuff a:hover {
+  background-color: #ddf2ff;
+
+}
+.dropdown:hover .dropdownstuff {
+  display: flex;
+  padding-left: 80%;
+  max-width: 100%;
+}
+
 
 #logo{
 
@@ -44,10 +75,6 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
-/* header {
-  background-color: rgb(129, 157, 209);
-  padding: 10px;
-} */
 .hey {
   font-size: 20px;
   color: rgb(255, 0, 140);
@@ -55,38 +82,44 @@ p {
   text-align: center;
 }
 .main{
+  /* margin-top: 5%; */
   position: relative;
-  /* position: relative; */
+  text-align: center;
 }
 .main >.over{
-  position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  position: relative; 
+  bottom:-30vw;
+  font-size:5vw;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px 4px #000000;
-}
-/* .webhead{
- background-color: rgb(12, 8, 48);
-  width: 1000vw;
-  height: auto;
- 
-  padding-top: 7px;
-  padding-bottom: 7px;
-  padding-left: 12px;
-  padding-right: 12px;
   z-index: 1;
-  text-align: center;
-  box-shadow: 2px 2px 4px #6b6b6b;
-} */
-/* .webheadfont{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(255, 255, 255);
-  z-index: 2;
-  font-size: large;
-} */
+}
+.main > .meetstart{
+  position: relative; 
+  bottom:-30vw;
+  font-size:3vw;
+  padding: 10px 24px;
+  background-color: rgb(0, 64, 112);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #000000;
+  z-index:1;
+   /* transform: (-50%, -50%); */
+
+}
+.main > .meetstart:hover{
+  background-image: linear-gradient(to right, #1572a8, rgb(22, 30, 114));
+  color: #ffffff;
+}
+.main > .video1{
+  height: auto;
+}
+
   @media only screen and (max-width: 600px) {
  body{
   background-color: hwb(212 55% 0%);
