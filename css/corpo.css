@@ -1,22 +1,28 @@
 /* OVERALL*/
 *{
     scroll-behavior: smooth;
-    margin: 0%;
+    margin: 0;
 }
-
-
+h1{
+ color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body {  
-  background-color: rgb(181, 237, 255);
+  background-color: rgb(255, 255, 255);
 }
+
 a:link{
-  color: #93D7FF;
+  color: #ffffff;
   font-size: 1vw;
   z-index: 3;
 }
+
 a:visited{
   color: #f6fdff;
   font-size: 15px;
 }
+
+
 nav{
   background-color: #004070;
   color: rgb(255, 255, 255);
@@ -24,14 +30,13 @@ nav{
   padding: 1vw;
   position: fixed;
   width: 100%;
-
   text-align: left;
   box-shadow: 2px 2px 8px #004070;
-  z-index: 2;
+  z-index: 3;
 }
 
 .dropbutton {
-  background-color: #0091ff;
+  /* background-color: #0091ff; */
   color: rgb(250, 21, 21);
   padding: .8vw;
   font-size: 16px;
@@ -40,7 +45,7 @@ nav{
 }
 
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
 }
 
@@ -49,8 +54,7 @@ nav{
   position: absolute;
   background-image: linear-gradient(to right, #93D7FF, rgb(12, 0, 34));
   min-width: 10000%;
-  max-width: 100%;
-  left: -700%;
+  left: -500%;
 }
 .dropdownstuff a {
   color: rgb(12, 0, 80);
@@ -67,37 +71,94 @@ nav{
 }
 
 
-#logo{
 
+.subscribe{
+  margin-top: 2%;
+  background-color: #93D7FF;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2vw;
+  /* position: fixed; */
+  width: 100%;
+  /* text-align: left; */
+  box-shadow: 2px 2px 8px #004070;
+  z-index: 2;
+} 
+.subscribe > #big{
+  display: inline-block;
+  font-size: 2vw;
+  padding:2vw;
+  padding-inline: 3vw;
+  background-image: linear-gradient(to right, #00a2ff, rgb(12, 0, 34));
+  box-shadow: 2px 2px 8px #004070;
   
 }
-p {
-  font-family: verdana;
-  font-size: 20px;
+.subscribe > .subbuttons{
+  background-color: #004070;
+  padding: 1vw;
+  padding-inline: 3.5vw;
+  display: inline-block;
+  font-size: 1.5vw;
+  /* margin: 1%;  */
+  margin-left: 2%;
 }
-.hey {
-  font-size: 20px;
-  color: rgb(255, 0, 140);
-  background-color: black;
-  text-align: center;
+.subbuttons:hover{
+  background-image: linear-gradient(to right, #00a2ff, rgb(12, 0, 34));
 }
-.main{
+
+
+
+
+/* .main{ */
   /* margin-top: 5%; */
-  position: relative;
+  /* position: relative;
   text-align: center;
+  color:white;
+} */
+
+.header {
+
+position: relative;
+text-align: center;
+color: rgb(255, 255, 255);
+
 }
-.main >.over{
+.headcontainer{
+  position: absolute;
+  top: 40%; 
   left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 3vw;
+}
+button{
+  background-color: #004070;
+  padding: 1vw;
+  padding-inline: 3.5vw;
+  display: inline-block;
+  font-size: 1.5vw;
+  /* margin: 1%;  */
+  margin-left: 2%;
+  color: white
+}
+
+/* main > .above{
+  z-index: 2;
+  margin: 0;
+  position: absolute; 
+  top: 50%;
+  left: 50%; 
   transform: translate(-50%, -50%);
-  position: relative; 
-  bottom:-30vw;
-  font-size:5vw;
+  */
+  /* bottom:-30vw; */
+  /* font-size:5vw;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 2px 2px 4px #000000;
-  z-index: 1;
-}
-.main > .meetstart{
+  
+  
+  
+} */
+/* .main > .meetstart{
   position: relative; 
   bottom:-30vw;
   font-size:3vw;
@@ -110,25 +171,93 @@ p {
   box-shadow: 2px 2px 4px #000000;
   z-index:1;
    /* transform: (-50%, -50%); */
+/* } */ */
 
-}
 .main > .meetstart:hover{
   background-image: linear-gradient(to right, #1572a8, rgb(22, 30, 114));
   color: #ffffff;
 }
 .main > .video1{
   height: auto;
+  z-index: 1;
 }
 
-  @media only screen and (max-width: 600px) {
+
+.info{
+  display:inline-block;
+  /* text-align: left; */
+  margin-top: 2%;
+  margin: 3%;
+  padding: 4%;
+  background-color: #93D7FF;
+  box-shadow: 2px 2px 8px #004070;
+
+}
+
+.info > .image1{
+  float: left;
+  display: inline-block;
+  width: 20%;
+  margin-right: 2%;
+}
+
+
+.info > .segment1{
+  font-size: 3vw;
+  /* float: right; */
+  display: inline-block;
+}
+
+.info > .paragraph1{
+  font-size: 2vw;
+  text-align: left;
+  margin-top: 2%;
+
+}
+
+h3{
+  margin: 2%;
+  background-color: #93D7FF;
+  color: white;
+  padding: 2%;
+  font-size: 2vw;
+  box-shadow: 2px 2px 8px #004070;
+}
+
+.last{
+  display: inline-block;
+ 
+}
+.last > .image2{
+ width: 25%;
+ margin-left: 3%;
+display: inline-flex;
+
+ 
+}
+
+.last > .paragraph2{
+
+  text-align: left;
+  float:33%;
+  padding: 3%;
+
+}
+
+footer{
+  margin: 5%;
+}
+
+
+@media only screen and (max-width: 600px) {
  body{
-  background-color: hwb(212 55% 0%);
+  background-color: hwb(203 43% 0%);
  }
   }
 @media only screen and (min-width: 600px) {
   
   body{
-  background-color:  #93D7FF;
+  background-color:  #c4ecff;
   }
 
 
