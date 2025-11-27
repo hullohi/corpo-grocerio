@@ -1,0 +1,121 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    /* top:5vw; */
+}
+.header {
+position: relative;
+text-align: center;
+color: rgb(0, 0, 0);
+}
+
+/* Navigation */
+nav{
+  position: fixed;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  /* padding: 1vw; */
+  width: 100%;
+  box-shadow: 2px 2px 8px #2d3032;
+  z-index: 3;
+
+}
+
+.breadcrumbs{
+    position: fixed;
+    top:4rem;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    padding:.5rem;
+    width:100%;
+    font-size: 15px;
+    box-shadow: #bfbfbf 2px 2px 8px;
+}
+.breadcrumbs a{
+    font-family: "adamina", serif;
+    text-decoration: none;
+    color: #ff0000;
+   
+    /* position: fixed; */
+}
+.breadcrumbs a:hover{
+    text-decoration: underline;
+    background-color: #000000;
+    padding: .5rem;
+    color: #ffffff;
+}
+.breadcrumbs > a.currentsite{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+
+.row{
+    padding: .5rem;
+    text-align: center;
+}
+
+h1{
+    top: 7rem;
+    position: relative;
+    font-size: 3vw;
+    z-index: 3;
+    display:inline-block;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row >.leftfont{
+    float: left;
+    margin-left: 1rem;
+}   
+.deals{
+    text-align: center;
+    background-color: #000000;
+    position: relative;
+    font-size: 2rem;
+    top: 7rem;
+    box-shadow: #000000 2px 2px 8px;
+
+}
+
+.deals > .sale{
+    display:inline-block;
+    width: 7vw;
+    margin:2vw;
+}
+
+.featured{
+    position: relative;
+    display: inline-block;
+    top: 6.5rem;
+    width: 100%;
+    /* text-align: center; */
+
+}
+.featured > img{
+    width: 28vw;
+    margin: 2vw;
+    margin-left: 2.5vw;
+    box-shadow: #000000 2px 2px 8px;
+}
+
+.mainstore{
+    position: relative;
+    display: flex;
+    top: 5rem;
+    width: 100%;
+    text-align: center;
+}
+.mainstore > img{
+    display: flex;
+    width: 28vw;
+    margin: 2vw;
+    margin-left: 2.5vw;
+    box-shadow: #000000 2px 2px 8px;
+}
+.mainstore h2{
+    display: flex;
+    margin-top: 2rem;
+}

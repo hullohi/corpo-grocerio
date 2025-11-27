@@ -1,0 +1,55 @@
+/* OVERALL*/
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    
+    /* top:5vw; */
+}
+
+/* Navigation */
+nav{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  box-shadow: 2px 2px 8px #2d3032;
+  z-index: 3;
+
+}
+
+.breadcrumbs{
+    position: fixed;
+    top:4rem;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    padding:.5rem;
+    width:100%;
+    font-size: 15px;
+    box-shadow: #000000 2px 2px 8px;
+}
+.breadcrumbs a{
+    text-decoration: none;
+    color: #000000;
+}
+.breadcrumbs a:hover{
+    text-decoration: underline;
+    background-color: #002d64;
+    color: #ffffff;
+}
+.breadcrumbs > a.currentsite{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.posts{
+    position: relative;
+    font-size: 2rem;
+    top: 6rem;
+}
+.posts > p{
+    margin: .5rem;
+    font-size: 1rem;
+}
+
