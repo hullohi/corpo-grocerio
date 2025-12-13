@@ -95,27 +95,51 @@ h1{
 
 }
 .featured > img{
-    width: 28vw;
+    display: inline-block;
+    width: 25vw;
     margin: 2vw;
-    margin-left: 2.5vw;
+    margin-left: 4vw;
     box-shadow: #000000 2px 2px 8px;
 }
 
 .mainstore{
+    /* background-color: #000000; */
     position: relative;
-    display: flex;
+    display: inline-block;
     top: 5rem;
-    width: 100%;
-    text-align: center;
+    /* width: 100%; */
+    margin: 3rem;
+    margin-top: 5vw;
+    margin-left: 20vw;
+    /* text-align: center; */
+    
 }
 .mainstore > img{
-    display: flex;
-    width: 28vw;
-    margin: 2vw;
-    margin-left: 2.5vw;
+    /* position: absolute; */
+    /* display: inline-block; */
+    
+    width: 24vw;
+  
     box-shadow: #000000 2px 2px 8px;
 }
+.mainstore > .productinfo{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    margin-left: 2vw;
+    background-color: #000000;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
 .mainstore h2{
-    display: flex;
-    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.mainstore p{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }

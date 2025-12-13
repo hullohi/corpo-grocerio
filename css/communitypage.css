@@ -17,6 +17,10 @@ nav{
   z-index: 3;
 
 }
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
 
 .breadcrumbs{
     position: fixed;

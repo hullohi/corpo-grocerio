@@ -41,13 +41,36 @@ button:hover{
 body{
   background-color: #ffffff;
 }
-
+.circle{
+  position: relative;
+  width: 10vw;
+}
 /* header */
 .header {
-position: relative;
+position: sticky;
+top: 0;
 
 }
-
+.header2{
+  display:block;
+  /* display: none; */
+  position: sticky;
+  top:0;
+  text-align: center;
+  /* left: 50%; */
+  /* transform: translate(-50%,-50%); */
+  font-size: 3vw;
+}
+.header3{
+  display:block;
+  /* display: none; */
+  position: sticky;
+  text-align: center;
+   top:0;
+  /* left: 50%; */
+  /* transform: translate(-50%,-50%); */
+  font-size: 3vw;
+}
 .areas{
   /* position: inline-block; */
   text-align: center;
@@ -56,31 +79,36 @@ position: relative;
   display:block;
   /* float: 33%; */
   position: absolute;
-  top: 40%; 
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
   font-size: 3vw;
 }
 .headcontainer2{
-  display: none;
+  display:block;
+  /* float: 33%; */
   position: absolute;
-  text-align: center;
-  top: 40%; 
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
   font-size: 3vw;
 }
 .headcontainer3{
-  display: none;
+  display:block;
+  /* float: 33%; */
   position: absolute;
-  text-align: center;
-  top: 40%; 
+  top: 40%;
   left: 50%;
   transform: translate(-50%,-50%);
   font-size: 3vw;
 }
 
-
+ 
+.mid{
+  background-color: #ffffff;
+  z-index: 10;
+  position: relative;
+}
 #video1{
   
   width: 100rem;
@@ -95,7 +123,12 @@ position: relative;
   bottom:0; */
   /* opacity: 0.7; */
 }
-
+#video3{
+  
+  width: 100rem;
+  height: auto;
+  /* opacity: 0.7; */
+}
 
 /* link */
 a:link{
@@ -156,7 +189,7 @@ nav{
 
 /* subscribe banner */
 .subscribe{
-  position: relative;
+  /* position: relative; */
   margin-top: 2%;
   background-color: #000000;
   color: rgb(255, 255, 255);
@@ -188,6 +221,8 @@ nav{
 
 /* info segment section */
 .info{
+  position: relative;
+  z-index: 2;
   display:inline-block;
   margin-top: 2%;
   margin: 3%;
@@ -211,6 +246,7 @@ nav{
 }
 
 .last > .image2{
+  z-index: 4;
  width: 20%;
  margin: 2%;
 }
