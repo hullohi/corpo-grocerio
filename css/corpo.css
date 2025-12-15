@@ -49,13 +49,14 @@ body{
 .header {
 position: sticky;
 top: 0;
-
+overflow: hidden;
 }
 .header2{
   display:block;
   /* display: none; */
   position: sticky;
   top:0;
+  overflow: hidden;
   text-align: center;
   /* left: 50%; */
   /* transform: translate(-50%,-50%); */
@@ -65,6 +66,7 @@ top: 0;
   display:block;
   /* display: none; */
   position: sticky;
+  overflow: hidden;
   text-align: center;
    top:0;
   /* left: 50%; */
@@ -197,6 +199,7 @@ nav{
   padding: 2vw;
   width: 100%;
   box-shadow: 2px 2px 8px #414141;
+  overflow: hidden;
 } 
 .subscribe > #big{
   color: #ffffff;
@@ -213,7 +216,7 @@ nav{
   padding: 1vw;
   padding-inline: 2.5vw;
   font-size: 1.5vw;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 .subscribe > button:hover{
    background-image: linear-gradient(to right, #101010, rgb(197, 0, 0));

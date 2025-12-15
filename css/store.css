@@ -78,12 +78,20 @@ h1{
     top: 7rem;
     box-shadow: #000000 2px 2px 8px;
 
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+
+    overflow-x: auto;
 }
 
 .deals > .sale{
     display:inline-block;
-    width: 7vw;
+    width: 18vw;
     margin:2vw;
+    background: #2d3032;
+    padding: 1vw;
+    
 }
 
 .featured{
@@ -92,7 +100,7 @@ h1{
     top: 6.5rem;
     width: 100%;
     /* text-align: center; */
-
+  
 }
 .featured > img{
     display: inline-block;
@@ -105,28 +113,22 @@ h1{
 .mainstore{
     /* background-color: #000000; */
     position: relative;
-    display: inline-block;
-    top: 5rem;
-    /* width: 100%; */
-    margin: 3rem;
-    margin-top: 5vw;
-    margin-left: 20vw;
-    /* text-align: center; */
-    
+    top: 15vw;
+    display: flex;
+    background: #2d3032;
+    padding: 5vw;
+  
 }
 .mainstore > img{
     /* position: absolute; */
     /* display: inline-block; */
-    
     width: 24vw;
-  
     box-shadow: #000000 2px 2px 8px;
+  
 }
 .mainstore > .productinfo{
-    position: absolute;
-    display: inline-block;
-    width: 100%;
-    margin-left: 2vw;
+    /* position: absolute; */
+  
     background-color: #000000;
     padding: 2rem;
     text-align: center;
