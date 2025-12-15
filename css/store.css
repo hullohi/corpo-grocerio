@@ -50,15 +50,10 @@ nav{
 .breadcrumbs > a.currentsite{
     font-weight: bold;
     text-decoration: underline;
-    
+
 }
-
-
 .row{
     padding-top: 2rem;
-
-
-    
 }
 .leftfont{
     margin-top: 2rem;
@@ -142,7 +137,7 @@ h1{
     display: flex;
     background: #5c5e60;
     padding: 5vw;
-    padding-bottom: 10rem;
+    padding-bottom: 20rem;
     overflow: auto;
 }
 .mainstore > img{
@@ -170,4 +165,57 @@ h1{
     font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+@media screen and (max-width: 1024px){
+.featured{
+    
+    padding-top: 2rem;
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    width: 100%;
+    /* text-align: center; */
+  
+}
+.mainstore{
+    /* background-color: #000000; */
+    position: sticky;
+    margin-top: 1vw;
+    top: 12rem;
+    display: flex;
+    background: #5c5e60;
+    padding: 5vw;
+    padding-bottom: 10rem;
+    overflow: auto;
+}
+.mainstore > img{
+    /* position: absolute; */
+    /* display: inline-block; */
+    width: 20vw;
+    box-shadow: #000000 2px 2px 8px;
+  
+}
+.coming{
+    position:sticky;
+    top: 5vw;
+    text-align: center;
+    margin-top: 2rem;
+    background: #2d3032;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: #000000 2px 2px 8px;
+    color: #ffffff;
+}
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 600px){
+
+}
+@media screen and (max-width: 480px){
+
+}
+@media screen and (max-width: 320px){
+ 
 }

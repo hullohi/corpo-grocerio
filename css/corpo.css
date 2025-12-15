@@ -56,7 +56,7 @@ overflow: hidden;
   position: relative;
   font-size: .5rem;
   color: #f6fdff;
-  transform: translate(0vw,-24vw);
+  transform: translate(0rem,0rem);
 }
 .header2{
   display:block;
@@ -74,9 +74,7 @@ overflow: hidden;
   top:0;
   font-size: 3vw;
 }
-.areas{
-  text-align: center;
-}
+
 .headcontainer1{
   display:block;
   position: absolute;
@@ -145,7 +143,8 @@ nav{
 
 }
 .credit {
-  font-size: .5rem;
+  font-size: .3rem;
+
 }
 /* subscribe banner */
 .subscribe{
@@ -234,7 +233,8 @@ h2{
   font-size: 2.5rem;
 }
 button{
-  margin:2rem;
+  margin:1rem;
+  font-size: 2rem;
 }
 .subscribe {
   margin-top: .5rem;
@@ -271,8 +271,8 @@ h1{
   font-size: 3rem;
 }
 button{
-  font-size: 2.3rem;
-  margin:2rem;
+  font-size: 1rem;
+  margin:1rem;
 }
 #video1{
     /* width: 100rem; */
@@ -321,9 +321,7 @@ nav{
 h1{
   font-size: 3rem;
 }
-button{
-  font-size: 2rem;
-}
+
 /* body{
   background-color:  #ffc4c4;
   } */
@@ -337,13 +335,12 @@ button{
   font-size: 1.3rem;
   margin-inline:3rem ;
 }
-.last > .image2{
-  width: 14rem;
-  margin-left: 2rem;
+.last{
+  padding-top:1rem;
 }
-.last > h3{
-  text-align: center;
-  bottom:20px;
+.last > .image2{
+  width: 8rem;
+  margin-left: 2rem;
 }
 }
 
@@ -351,9 +348,7 @@ button{
   /* body{
   background-color:  #00ff22;
  } */
-button{
-  margin:2rem;
-}
+
 .info{
     align-items: center;
     text-align: center;
@@ -361,20 +356,12 @@ button{
 .info > .image1{
   float: none;
 }
-.last{
-  /* design: block; */
-  /* text-align: center; */
-  align-items: center;
-}
+
 .subscribe > button{
   font-size: 1.2rem;
   margin:.5rem
 }
-.last > .image2{
-  text-align: center;
-  width:10rem;
-  margin-left: 2rem;
-}
+
 }
 
 
@@ -391,20 +378,10 @@ h3{
     text-align: center;
     font-size: 1.5rem;
   }
-button{
-    margin: 2rem;
-    font-size: 1rem;
-    padding: 1rem;
-}
+
 .subscribe > .subbuttons{
   font-size: .9rem;
   margin:.3rem
 }
-  /* body{
-  background-color:  #ffffff;
-  } */
-.last > .image2{
-  width:12rem;
-  margin-left: 3.5rem;
-}
+
 }

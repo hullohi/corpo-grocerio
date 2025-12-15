@@ -86,3 +86,33 @@ a{
 .links a{
     color:#000000;
 }
+@media screen and (max-width: 1024px){
+h1{
+    font-size: 4vw;
+}
+.breadcrumbs a{
+    font-size: 2vw;
+}
+.posts{
+    text-align: left;
+    font-size: 3vw;
+    padding: 1vw;
+    padding-top: 1rem;
+
+}
+}
+@media screen and (max-width: 768px){
+h1{
+    text-align: center;
+}
+
+}
+@media screen and (max-width: 600px){
+
+}
+@media screen and (max-width: 480px){
+
+}
+@media screen and (max-width: 320px){
+
+}

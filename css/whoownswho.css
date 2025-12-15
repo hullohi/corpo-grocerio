@@ -13,7 +13,7 @@ h1{
 #title{
   position: sticky;
   color: #000000;
-  top:7vw;
+  top:5rem;
   padding: 2vw;
   text-align: center;
 }
@@ -40,7 +40,7 @@ nav{
 }
 p{
   position: sticky;
-  top: 15%;
+  top: 55rem;
   font-size: 1rem;
   color: #000000;
   text-align: center;
@@ -77,7 +77,7 @@ p{
 
 .chart {
   position: sticky;
-  top: 15vw;
+  top: 15rem;
   display: flex;
   place-content: center;
   flex-flow: wrap;
@@ -184,3 +184,52 @@ body{
     
 }
 
+@media screen and (max-width: 1024px){
+.chart {
+  position: sticky;
+  top: 15rem;
+  display: flex;
+  place-content: center;
+  flex-flow: wrap;
+  gap: 2rem;
+}
+#title{
+  position: sticky;
+  color: #000000;
+  top:8rem;
+  padding: 2rem;
+  text-align: center;
+}
+p{
+  top:55rem;
+}
+.container > ul{
+  padding-left: 2rem;
+}
+.container {
+  padding-bottom: 30rem;
+}
+.container2 > ul{
+  padding-left: 2rem;
+  padding-bottom: 25rem;
+}
+}
+@media screen and (max-width: 768px){
+#title{
+  position: sticky;
+  color: #000000;
+  top:6rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+}
+@media screen and (max-width: 600px){
+
+}
+@media screen and (max-width: 480px){
+
+}
+@media screen and (max-width: 320px){
+    
+}
