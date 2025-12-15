@@ -1,4 +1,8 @@
+const button = document.getElementById('subbutton');
+let buttonPress = false;
 
+
+if (buttonPress = true);
 
 
 // window.addEventListener('load',() => {

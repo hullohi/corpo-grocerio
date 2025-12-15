@@ -20,7 +20,10 @@ nav{
   z-index: 3;
 
 }
-
+.credit {
+    padding: 1rem;
+    font-size: .5rem;
+}
 .breadcrumbs{
     position: fixed;
     top:4rem;
@@ -52,24 +55,32 @@ nav{
 
 
 .row{
-    padding: .5rem;
+    padding-top: 2rem;
+
+
+    
+}
+.leftfont{
+    margin-top: 2rem;
+    background: #000000;
+    width: 100%;
+    padding: 2vw;
+    color: #ffffff;
     text-align: center;
 }
-
 h1{
-    top: 7rem;
+     /* position: sticky;   */
+    top: 5.5rem;
+    text-align: center;
     position: relative;
     font-size: 3vw;
     z-index: 3;
-    display:inline-block;
-    color: rgb(0, 0, 0);
+
+    color: #b71f1f;
     z-index: 1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.row >.leftfont{
-    float: left;
-    margin-left: 1rem;
-}   
+
 .deals{
     text-align: center;
     background-color: #000000;
@@ -95,6 +106,8 @@ h1{
 }
 
 .featured{
+    
+    padding-top: 2rem;
     position: relative;
     display: inline-block;
     top: 6.5rem;
@@ -110,14 +123,27 @@ h1{
     box-shadow: #000000 2px 2px 8px;
 }
 
+.coming{
+    position:sticky;
+    top: 5vw;
+    text-align: center;
+    margin-top: 10rem;
+    background: #2d3032;
+    width: 100%;
+    padding: 2rem;
+    box-shadow: #000000 2px 2px 8px;
+    color: #ffffff;
+}
 .mainstore{
     /* background-color: #000000; */
-    position: relative;
-    top: 15vw;
+    position: sticky;
+    margin-top: 5vw;
+    top: 12rem;
     display: flex;
-    background: #2d3032;
+    background: #5c5e60;
     padding: 5vw;
-  
+    padding-bottom: 10rem;
+    overflow: auto;
 }
 .mainstore > img{
     /* position: absolute; */

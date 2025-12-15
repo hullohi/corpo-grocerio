@@ -7,6 +7,7 @@
 }
 
 /* Navigation */
+/* looks differebnt from other nav */
 nav{
   background-color: #000000;
   color: rgb(255, 255, 255);
@@ -17,11 +18,13 @@ nav{
   z-index: 3;
 
 }
+
+/* links */
 a{
-    text-decoration: none;
     color:#ffffff;
 }
 
+/* breeadcrumbs */
 .breadcrumbs{
     position: fixed;
     top:4rem;
@@ -32,6 +35,7 @@ a{
     font-size: 15px;
     box-shadow: #000000 2px 2px 8px;
 }
+/* looks different from other breadcrumbs */
 .breadcrumbs a{
     text-decoration: none;
     color: #000000;
@@ -47,13 +51,38 @@ a{
     
 }
 
+/* simple post aesthetis */
 .posts{
+    text-align: center;
+    padding-top: 2rem;    
     position: relative;
     font-size: 2rem;
     top: 6rem;
+    padding-bottom: 2rem;
 }
 .posts > p{
     margin: .5rem;
     font-size: 1rem;
+    padding: 1rem;
+    
 }
 
+/* link section */
+.links{
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.links > h2{
+    background: #000000;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    padding: 2rem;
+}
+.links > ul{
+    
+    padding: 1rem;
+}
+.links a{
+    color:#000000;
+}

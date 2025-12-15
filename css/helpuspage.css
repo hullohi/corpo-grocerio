@@ -35,6 +35,8 @@ button:hover, h1:hover{
 button:active{
   transform: scale(0.8);
   background-image: linear-gradient(to right, #101010, rgb(197, 0, 0));
+  animation-name: myAnimation;
+  animation-duration: .1s;
 }
 
 /*  */
@@ -97,7 +99,8 @@ nav{
     /* margin-top: 2.7rem; */
     width: 100rem;
     /* height: auto; */
-    object-fit: fill;
+    object-fit: fill; 
+    overflow: hidden;
    
 }
 
