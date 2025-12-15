@@ -11,9 +11,9 @@ h1{
  font-size: 3rem;
 }
 #title{
-  position: relative;
+  position: sticky;
   color: #000000;
-  top:12vw;
+  top:7vw;
   padding: 2vw;
   text-align: center;
 }
@@ -36,6 +36,14 @@ nav{
   color:#ffffff;
   padding: 2vw;
   padding-bottom: 25%;
+
+}
+p{
+  position: sticky;
+  top: 15%;
+  font-size: 1rem;
+  color: #000000;
+  text-align: center;
 }
 .container > .head {
   background-color: #2d3032;
