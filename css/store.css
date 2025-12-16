@@ -18,7 +18,6 @@ nav{
   width: 100%;
   box-shadow: 2px 2px 8px #2d3032;
   z-index: 3;
-
 }
 .credit {
     padding: 1rem;
@@ -70,9 +69,8 @@ h1{
     position: relative;
     font-size: 3vw;
     z-index: 3;
-
     color: #b71f1f;
-    z-index: 1;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -101,7 +99,7 @@ h1{
 }
 
 .featured{
-    
+    overflow: hidden;
     padding-top: 2rem;
     position: relative;
     display: inline-block;
@@ -124,10 +122,11 @@ h1{
     text-align: center;
     margin-top: 10rem;
     background: #2d3032;
-    width: 100%;
+    /* width: 100%; */
     padding: 2rem;
     box-shadow: #000000 2px 2px 8px;
     color: #ffffff;
+    overflow: hidden;
 }
 .mainstore{
     /* background-color: #000000; */
@@ -143,13 +142,13 @@ h1{
 .mainstore > img{
     /* position: absolute; */
     /* display: inline-block; */
-    width: 24vw;
+    width: 15rem;
     box-shadow: #000000 2px 2px 8px;
   
 }
 .mainstore > .productinfo{
     /* position: absolute; */
-  
+    font-size: 1rem;
     background-color: #000000;
     padding: 2rem;
     text-align: center;
@@ -167,8 +166,17 @@ h1{
     
 }
 @media screen and (max-width: 1024px){
+nav{
+  position: fixed;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  /* padding: 1vw; */
+  width: 100%;
+  box-shadow: 2px 2px 8px #2d3032;
+  z-index: 3;
+}
 .featured{
-    
+    overflow: hidden;
     padding-top: 2rem;
     position: relative;
     display: inline-block;
@@ -191,27 +199,79 @@ h1{
 .mainstore > img{
     /* position: absolute; */
     /* display: inline-block; */
-    width: 20vw;
+    width: 10rem;
     box-shadow: #000000 2px 2px 8px;
   
 }
+.mainstore > .productinfo{
+    /* position: absolute; */
+    background-color: #000000;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
 .coming{
     position:sticky;
-    top: 5vw;
+    top: 6rem;
     text-align: center;
     margin-top: 2rem;
     background: #2d3032;
-    width: 100%;
+    /* width: 100%; */
     padding: 2rem;
     box-shadow: #000000 2px 2px 8px;
     color: #ffffff;
+    overflow: hidden;
+}
+.mainstore h2{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.mainstore p{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 }
 @media screen and (max-width: 768px){
 
 }
 @media screen and (max-width: 600px){
+.deals > .sale{
+    display:inline-block;
+    width: 18rem;
+    margin:2rem;
+    background: #2d3032;
+    padding: 1rem;
+    
+}
+.mainstore > img{
+    /* position: absolute; */
+    /* display: inline-block; */
+    height: 40vw;
+    box-shadow: #000000 2px 2px 8px;
+  
+}
+.mainstore > .productinfo{
+    /* position: absolute; */
+    background-color: #000000;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    height: 10rem;
+}
+.mainstore h2{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+.mainstore p{
+    font-size: .5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 }
 @media screen and (max-width: 480px){
 

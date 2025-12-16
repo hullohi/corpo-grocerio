@@ -40,8 +40,8 @@ nav{
 }
 p{
   position: sticky;
-  top: 55rem;
-  font-size: 1rem;
+  top: 40rem;
+  font-size: .5rem;
   color: #000000;
   text-align: center;
 }
@@ -201,7 +201,9 @@ body{
   text-align: center;
 }
 p{
-  top:55rem;
+  position: sticky;
+  top:53rem;
+  font-size: .5rem;
 }
 .container > ul{
   padding-left: 2rem;
@@ -225,7 +227,11 @@ p{
 }
 }
 @media screen and (max-width: 600px){
-
+p{
+  position: sticky;
+  top:48rem;
+  font-size: .5rem;
+}
 }
 @media screen and (max-width: 480px){
 
